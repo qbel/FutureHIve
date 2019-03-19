@@ -1,0 +1,116 @@
+/* .navbar a :hover {
+    background-color:#B5CB21;
+    color: white;
+} */
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 20px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+  }
+  .mask {
+    /* overflow: hidden; */
+    /* text-overflow: ellipsis; */
+    display: -webkit-box;
+    /* line-height: 21px; */
+    /* max-height: 48px; */
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    /* padding-top:0px; */
+ }
+ .carousel-indicators li {
+    background-color: #b5cb22;
+    /* font-size:20px; */
+  }
+  .carousel-indicators .active {
+     background-color: #fff;
+  }
+ 
+#new{
+    padding-right:50px;
+    /* color: #cccc33; */
+    color: 	#b5cb22;
+}
+#pic{
+    border-radius:20px;
+    margin-top:50px;
+}
+#pic2{
+    border-radius:20px;
+}
+
+#clockdiv{
+    font-family: 'PT Sans', sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 50px;
+}
+
+#clockdiv > div{
+    padding: 10px;
+    border-radius: 5px;
+    /* background: red; */
+    display: inline-block;
+}
+
+#clockdiv div > span{
+    padding: 15px;
+    border-radius: 5px;
+    background: transparent;
+    border: 2px solid white;
+    display: inline-block;
+}
+#days{
+    font-size: 20px;
+    font-weight: bolder;
+}
+#inner{
+    background-color: gray;
+    padding-top:20px;
+}
+/* #footer{
+    background-color:;
+} */
+#so{
+    color: 	#b5cb22;
+}
+#next{
+    border-color: #b5cb22;
+}
+#nerd{
+    background-color:rgb(60, 60, 60)
+}
+.form-control{
+    background:transparent;
+    color:#b5cb22;
+    border:1px solid #b5cb22;
+}
+.form-control:focus{
+    background:transparent;
+    border:1px solid #b5cb22;
+    box-shadow: 0 0 0 0.02rem #b5cb22;
+}
+
+@media only screen and ( max-width: 1024px )
+{
+    #hive{
+        font-size:20px;
+    }
+    #civic{
+        font-size:12px;
+        text-align: center;
+    }
+    .button{
+        padding:0px;
+    }
+    #view2{
+        height: 100vh;
+    }
+}
